@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:minWidth="280dp">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@android:drawable/ic_dialog_info"
+        android:tint="#00384E"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dodatkowe informację dla służb ratowniczych"
+        android:textSize="18sp"
+        android:textColor="#00384E"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/input_field"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter additional info"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/edit_text"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textColorHint="#999999" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:text="Zgłoś problem"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:background="#00384E" />
+</LinearLayout>
